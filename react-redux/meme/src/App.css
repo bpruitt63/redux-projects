@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.meme {
+  max-width: 500px;
+  margin: 30px auto;
+  position: relative;
+  color: white;
+  font-size: 2em;
+}
+
+.meme img {
+  width: 500px;
+}
+
+.topText {
+  height: 30%;
+  width: 100%;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+.bottomText {
+  height: 25%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  bottom: -15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
