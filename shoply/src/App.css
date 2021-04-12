@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.ProductBasic {
+  width: 250px;
+  height: 375px;
+  vertical-align: top;
+  display: inline-block;
+  border: 1px solid lightslategray;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 5px;
+}
+
+.ProductBasic img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.ProductLink {
+  display: block;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.ProductBasic button, .ProductDetail button {
+  font-size: 1.1em;
+  margin: 5px;
+  padding: 0px 10px;
+}
+
+.ProductDetail img {
+  max-width: 600px;
+  max-height: 600px;
+}
+
